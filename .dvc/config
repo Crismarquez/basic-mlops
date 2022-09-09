@@ -1,0 +1,4 @@
+['remote "data_storage"']
+    url = gs://ml-storage-deploy/data
+['remote "model_storage"']
+    url = gs://ml-storage-deploy/model
