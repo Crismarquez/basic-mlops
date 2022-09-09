@@ -21,6 +21,5 @@ jobs:
       - name: Test API
         run: |
           export GOOGLE_APPLICATION_CREDENTIALS=$(python utilities/setter.py)
-          dvc checkout
           dvc pull -r model_storage -f
           pytest test.py
