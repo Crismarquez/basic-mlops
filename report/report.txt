@@ -1,0 +1,3 @@
+# Model Pipeline Description### imputer:SimpleImputer()
+### core_model:GradientBoostingRegressor(n_estimators=280)
+### Train score: {train_score}### Train score: {test_score}### Train score: {validation_score}
