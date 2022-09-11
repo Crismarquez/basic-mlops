@@ -22,4 +22,5 @@ jobs:
         run: |
           export GOOGLE_APPLICATION_CREDENTIALS=$(python utilities/setter.py)
           dvc pull
+          export PYTHONPATH="${PYTHONPATH}:${PWD}"
           pytest test/test.py
