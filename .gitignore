@@ -6,3 +6,5 @@
 *.txt
 *.png
 __pycache__/
+/data
+/store

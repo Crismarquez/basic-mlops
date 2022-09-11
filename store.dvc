@@ -1,0 +1,5 @@
+outs:
+- md5: 98996c3fa250f97e39ade9e0bfbc62ee.dir
+  size: 357337
+  nfiles: 1
+  path: store
