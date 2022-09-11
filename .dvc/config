@@ -1,4 +1,4 @@
 [core]
     remote = storage
 ['remote "storage"']
-    url = gs://ml-storage-deploy/data
+    url = gs://mlops-storage-deploy/storage
