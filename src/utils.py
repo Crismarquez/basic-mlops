@@ -7,7 +7,7 @@ import seaborn as sns
 from config.config import BASE_DIR, MODELS_DIR, REPORT_DIR
 
 def update_model(model: Pipeline) -> None:
-    model_dir = MODELS_DIR / 'models.pkl'
+    model_dir = MODELS_DIR / 'model.pkl'
     dump(model, model_dir)
 
 def save_simple_metrics_report(train_score: float, test_score:float, validation_score: float, model:Pipeline) -> None:
